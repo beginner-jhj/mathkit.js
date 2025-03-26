@@ -14,7 +14,7 @@ import {
   permutationWithRepetition,
 } from "./combinatorics.js";
 
-export default mathtool = {
+export const mathtool = {
   gcd,
   lcm,
   factorial,
