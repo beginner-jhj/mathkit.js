@@ -1,6 +1,6 @@
 {
   "name": "mathtool-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight and powerful JavaScript math library that includes number theory, combinatorics, and trigonometry functions.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
