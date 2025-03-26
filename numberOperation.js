@@ -114,9 +114,9 @@ export function primeFactors(num) {
 
 export function sieve(limit) {
   try {
-    isAllInteger([num], "Input must be a integer.");
-    isAllPositive([num], "Input must be positive.");
-    isAllNumeric([num], "Input must be a number.");
+    isAllInteger([limit], "Input must be a integer.");
+    isAllPositive([limit], "Input must be positive.");
+    isAllNumeric([limit], "Input must be a number.");
 
     if (limit < 2) {
       return [];
