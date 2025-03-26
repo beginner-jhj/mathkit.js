@@ -1,5 +1,5 @@
 {
-  "name": "mathkit-js",
+  "name": "mathtool-js",
   "version": "1.0.1",
   "description": "A lightweight and powerful JavaScript math library that includes number theory, combinatorics, and trigonometry functions.",
   "scripts": {
