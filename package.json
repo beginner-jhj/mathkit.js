@@ -6,7 +6,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "index.js",
+  "repository": {"url": "https://github.com/beginner-jhj/mathkit.js"},
+  "keywords": [ "math",
+                "mathematics",
+                "math-library",
+                "prime",
+                "gcd",
+                "lcm",
+                "factorial",
+                "combinatorics",
+                "permutation",
+                "combination",
+                "secant",
+                "cosecant",
+                "cotangent"],
   "type": "module",
   "author": "jhj",
-  "license": "ISC"
+  "license": "MIT"
 }
