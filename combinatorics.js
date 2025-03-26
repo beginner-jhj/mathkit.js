@@ -1,6 +1,6 @@
 import { isAllInteger, isAllNumeric, isAllPositive } from "./exception.js";
 
-function combination(n, r) {
+export function combination(n, r) {
   try {
     isAllInteger([n, r]);
     isAllPositive([n, r]);
@@ -24,7 +24,7 @@ function combination(n, r) {
   }
 }
 
-function permutation(n, r) {
+export function permutation(n, r) {
   try {
     isAllInteger([n, r]);
     isAllPositive([n, r]);
@@ -50,7 +50,7 @@ function permutation(n, r) {
   }
 }
 
-function combinationWithRepetition(n, k) {
+export function combinationWithRepetition(n, k) {
   try {
     isAllInteger([n, k]);
     isAllNumeric([n, k]);
@@ -65,7 +65,7 @@ function combinationWithRepetition(n, k) {
   }
 }
 
-function permutationWithRepetition(n, k) {
+export function permutationWithRepetition(n, k) {
   try {
     isAllInteger([n, k]);
     isAllNumeric([n, k]);

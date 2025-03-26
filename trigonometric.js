@@ -1,6 +1,6 @@
 import { isAllInteger, isAllNumeric } from "./exception.js";
 
-function degToRad(deg) {
+export function degToRad(deg) {
   try {
     isAllNumeric([deg], "Input must be a number.");
     return deg * (Math.PI / 180);
@@ -9,7 +9,7 @@ function degToRad(deg) {
   }
 }
 
-function radToDeg(rad) {
+export function radToDeg(rad) {
   try {
     isAllNumeric([rad], "Input must be a number.");
     return rad * (180 / Math.PI);
@@ -18,7 +18,7 @@ function radToDeg(rad) {
   }
 }
 
-function sec(deg, isDegree = false) {
+export function sec(deg, isDegree = false) {
   try {
     let theta = deg - 1.5707963267948966;
     if (isDegree) {
@@ -31,7 +31,7 @@ function sec(deg, isDegree = false) {
   }
 }
 
-function csc(deg, isDegree = false) {
+export function csc(deg, isDegree = false) {
   try {
     let theta = deg;
     if (isDegree) {
@@ -44,7 +44,7 @@ function csc(deg, isDegree = false) {
   }
 }
 
-function cot(deg, isDegree = false) {
+export function cot(deg, isDegree = false) {
   try {
     let theta = deg;
     if (isDegree) {

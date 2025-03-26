@@ -5,7 +5,7 @@ import {
   checkInputsLength,
 } from "./exception.js";
 
-function gcd(...args) {
+export function gcd(...args) {
   try {
     isAllInteger(args);
     isAllNumeric(args);
@@ -22,7 +22,7 @@ function gcd(...args) {
   }
 }
 
-function lcm(...args) {
+export function lcm(...args) {
   try {
     isAllNumeric(args);
     isAllInteger(args);
@@ -36,7 +36,7 @@ function lcm(...args) {
   }
 }
 
-function factorial(num) {
+export function factorial(num) {
   try {
     isAllInteger([num], "Input must be a integer.");
     isAllPositive([num], "Input must be positive.");
@@ -55,7 +55,7 @@ function factorial(num) {
   }
 }
 
-function isPrime(num) {
+export function isPrime(num) {
   try {
     isAllInteger([num], "Input must be a integer.");
     isAllPositive([num], "Input must be positive.");
@@ -77,7 +77,7 @@ function isPrime(num) {
   }
 }
 
-function primeFactors(num) {
+export function primeFactors(num) {
   try {
     isAllInteger([num], "Input must be a integer.");
     isAllPositive([num], "Input must be positive.");
@@ -112,7 +112,7 @@ function primeFactors(num) {
   }
 }
 
-function sieve(limit) {
+export function sieve(limit) {
   try {
     isAllInteger([num], "Input must be a integer.");
     isAllPositive([num], "Input must be positive.");

@@ -1,9 +1,33 @@
-import * as numberOperation from "./numberOperation.js";
-import * as trigonometry from "./trigonometric.js";
-import * as combinatorics from "./combinatorics.js";
+import {
+  gcd,
+  lcm,
+  factorial,
+  isPrime,
+  primeFactors,
+  sieve,
+} from "./numberOperation.js";
+import { degToRad, radToDeg, csc, sec, cot } from "./trigonometric.js";
+import {
+  combination,
+  permutation,
+  combinationWithRepetition,
+  permutationWithRepetition,
+} from "./combinatorics.js";
 
-export default {
-  ...numberOperation,
-  ...trigonometry,
-  ...combinatorics,
+export default mathtool = {
+  gcd,
+  lcm,
+  factorial,
+  isPrime,
+  primeFactors,
+  sieve,
+  degToRad,
+  radToDeg,
+  csc,
+  sec,
+  cot,
+  combination,
+  permutation,
+  combinationWithRepetition,
+  permutationWithRepetition,
 };
